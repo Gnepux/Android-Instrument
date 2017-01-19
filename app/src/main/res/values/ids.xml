@@ -4,6 +4,7 @@
     <item name="main_rxjava" type="id"/>
     <item name="main_okhttp" type="id"/>
     <item name="main_retrofit" type="id"/>
+    <item name="main_dagger" type="id"/>
 
     <!-- RxJavaActivity -->
     <item name="rxjava_1" type="id"/>
@@ -24,4 +25,11 @@
     <item name="retrofit_get_posts" type="id"/>
     <item name="retrofit_post_login" type="id"/>
     <item name="retrofit_rxjava_get_posts" type="id"/>
+
+    <!-- DaggerActivity -->
+    <item name="dagger_inject_only" type="id"/>
+    <item name="dagger_module_and_provider" type="id"/>
+    <item name="dagger_qulifier" type="id"/>
+    <item name="dagger_scope" type="id"/>
+
 </resources>

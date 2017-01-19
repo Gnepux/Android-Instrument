@@ -4,4 +4,5 @@
     <item name="activity_rx_java" type="layout">@layout/activity_btn_list</item>
     <item name="activity_okhttp" type="layout">@layout/activity_btn_list</item>
     <item name="activity_retrofit" type="layout">@layout/activity_btn_list</item>
+    <item name="activity_dagger" type="layout">@layout/activity_btn_list</item>
 </resources>

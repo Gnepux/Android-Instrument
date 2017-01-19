@@ -1,5 +1,6 @@
 package com.gnepux.instrument.activity;
 
+import android.support.annotation.StringRes;
 import android.support.v4.util.ArrayMap;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -62,7 +63,6 @@ public class RetrofitActivity extends AppCompatActivity implements View.OnClickL
             button.setId(mBtnProp.keyAt(i));
             linearLayout.addView(button);
         }
-
     }
 
     @Override

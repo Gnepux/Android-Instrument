@@ -16,6 +16,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             put(R.id.main_rxjava, "RxJava");
             put(R.id.main_okhttp, "OkHttp3");
             put(R.id.main_retrofit, "Retrofit2");
+            put(R.id.main_dagger, "Dagger2");
         }
     };
 
@@ -45,6 +46,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 break;
             case R.id.main_retrofit:    // Retrofit2
                 readyGo(RetrofitActivity.class);
+                break;
+            case R.id.main_dagger:  // Dagger2
+                readyGo(DaggerActivity.class);
                 break;
         }
     }

@@ -10,11 +10,11 @@ public class Constant {
 
     public static final String REMOTE_BASE_URL_GET = "https://api.github.com/";
 
-    public static final String PRE = "http://xxx/";
-    public static final String DEV = "http://xxx/";
-    public static final String SIT = "http://xxx/";
+    public static final String PRE = "http://warehousepre.cnsuning.com/rf/";
+    public static final String DEV = "http://10.27.82.17:9080/rf/";
+    public static final String SIT = "http://10.27.82.5:9080/rf/";
 
     public static final String REMOTE_BASE_URL_POST = SIT;
 
-    public static final String URL_LOGIN = "xxx";
+    public static final String URL_LOGIN = "androidAction!getHttpInfomation.action";
 }
