@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+    }
+    compileSdkVersion 24
+    buildToolsVersion "24.0.2"
+    defaultConfig {
+        applicationId "com.gnepux.instrument"
+        minSdkVersion 9
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    testCompile 'junit:junit:4.12'
+    // ConstraintLayout
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-beta4'
+    // RxJava
+    compile 'io.reactivex:rxjava:1.2.5'
+    compile 'io.reactivex:rxandroid:1.2.1'
+    // Dagger2
+    compile 'com.google.dagger:dagger:2.8'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.8'
+    // logger
+    compile 'com.orhanobut:logger:1.15'
+    // OkHttp3
+    // 依赖okio, 会自动导入okio。
+    compile 'com.squareup.okhttp3:okhttp:3.5.0'
+    compile 'com.squareup.okio:okio:1.11.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.5.0'
+    // Retrofit2
+    // 依赖okhttp, 会自动导入okhttp。
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    // Gson
+    compile 'com.google.code.gson:gson:2.8.0'
+}

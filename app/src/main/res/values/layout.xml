@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="activity_main" type="layout">@layout/activity_btn_list</item>
+    <item name="activity_rx_java" type="layout">@layout/activity_btn_list</item>
+    <item name="activity_okhttp" type="layout">@layout/activity_btn_list</item>
+    <item name="activity_retrofit" type="layout">@layout/activity_btn_list</item>
+</resources>

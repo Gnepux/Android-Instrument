@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MainActivity -->
+    <item name="main_rxjava" type="id"/>
+    <item name="main_okhttp" type="id"/>
+    <item name="main_retrofit" type="id"/>
+
+    <!-- RxJavaActivity -->
+    <item name="rxjava_1" type="id"/>
+    <item name="rxjava_2" type="id"/>
+    <item name="rxjava_3" type="id"/>
+    <item name="rxjava_4" type="id"/>
+    <item name="rxjava_5" type="id"/>
+    <item name="rxjava_6" type="id"/>
+    <item name="rxjava_7" type="id"/>
+    <item name="rxjava_8" type="id"/>
+
+    <!-- OkHttpActivity -->
+    <item name="okhttp_get" type="id"/>
+    <item name="okhttp_post" type="id"/>
+
+    <!-- RetrofitActivity -->
+    <item name="retrofit_get_repo" type="id"/>
+    <item name="retrofit_get_posts" type="id"/>
+    <item name="retrofit_post_login" type="id"/>
+    <item name="retrofit_rxjava_get_posts" type="id"/>
+</resources>
