@@ -5,6 +5,7 @@
     <item name="main_okhttp" type="id"/>
     <item name="main_retrofit" type="id"/>
     <item name="main_dagger" type="id"/>
+    <item name="main_databinding" type="id"/>
 
     <!-- RxJavaActivity -->
     <item name="rxjava_1" type="id"/>
@@ -31,5 +32,9 @@
     <item name="dagger_module_and_provider" type="id"/>
     <item name="dagger_qulifier" type="id"/>
     <item name="dagger_scope" type="id"/>
+
+    <!-- DataBindling -->
+    <item name="data_binding_simple" type="id"/>
+    <item name="data_binding_recyclerview" type="id"/>
 
 </resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="item"
+            type="com.gnepux.instrument.module.News"/>
+    </data>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/maring">
+
+        <ImageView
+            android:id="@+id/iv_thumbnail"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            tools:src="@mipmap/ic_launcher"
+            android:layout_margin="@dimen/maring"
+            android:src="@{item.imageResId}"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_thumbnail"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/white"
+            android:textSize="26sp"
+            android:layout_margin="@dimen/maring"
+            tools:text="标题"
+            android:text="@{item.title}"/>
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_title"
+            android:layout_below="@id/tv_title"
+            android:layout_alignRight="@id/tv_title"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:layout_margin="@dimen/maring"
+            tools:text="描述"
+            android:text="@{item.desc}"/>
+
+    </RelativeLayout>
+
+</layout>

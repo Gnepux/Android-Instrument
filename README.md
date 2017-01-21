@@ -39,3 +39,14 @@ compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
 compile 'com.google.code.gson:gson:2.8.0'
 ```
 
+##2017.1.20
+###开启DataBinding
+build.gradle中加入
+```
+android {
+    ....
+    dataBinding {
+        enabled = true
+    }
+}
+```

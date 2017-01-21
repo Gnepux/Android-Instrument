@@ -24,7 +24,10 @@
         <activity android:name=".activity.RxJavaActivity" />
         <activity android:name=".activity.OkHttpActivity" />
         <activity android:name=".activity.RetrofitActivity" />
-        <activity android:name=".activity.DaggerActivity"></activity>
+        <activity android:name=".activity.DaggerActivity" />
+        <activity android:name=".activity.databindling.DataBindingActivity" />
+        <activity android:name=".activity.databindling.DataBindlingSimpleActivity" />
+        <activity android:name=".activity.databindling.DataBindingRecyclerViewActivity"></activity>
     </application>
 
 </manifest>
