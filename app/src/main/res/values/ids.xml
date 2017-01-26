@@ -6,6 +6,7 @@
     <item name="main_retrofit" type="id"/>
     <item name="main_dagger" type="id"/>
     <item name="main_databinding" type="id"/>
+    <item name="main_loader" type="id"/>
 
     <!-- RxJavaActivity -->
     <item name="rxjava_1" type="id"/>
@@ -36,5 +37,9 @@
     <!-- DataBindling -->
     <item name="data_binding_simple" type="id"/>
     <item name="data_binding_recyclerview" type="id"/>
+
+    <!-- Loader -->
+    <item name="loader_data_get" type="id"/>
+    <item name="loader_data_change" type="id"/>
 
 </resources>

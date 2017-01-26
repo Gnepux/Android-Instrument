@@ -27,7 +27,8 @@
         <activity android:name=".activity.DaggerActivity" />
         <activity android:name=".activity.databindling.DataBindingActivity" />
         <activity android:name=".activity.databindling.DataBindlingSimpleActivity" />
-        <activity android:name=".activity.databindling.DataBindingRecyclerViewActivity"></activity>
+        <activity android:name=".activity.databindling.DataBindingRecyclerViewActivity" />
+        <activity android:name=".activity.loader.LoaderActivity"></activity>
     </application>
 
 </manifest>

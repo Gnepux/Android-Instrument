@@ -6,4 +6,5 @@
     <item name="activity_retrofit" type="layout">@layout/activity_btn_list</item>
     <item name="activity_dagger" type="layout">@layout/activity_btn_list</item>
     <item name="activity_data_binding" type="layout">@layout/activity_btn_list</item>
+    <item name="activity_loader" type="layout">@layout/activity_btn_list</item>
 </resources>

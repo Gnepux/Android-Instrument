@@ -9,6 +9,7 @@ import android.widget.LinearLayout;
 
 import com.gnepux.instrument.R;
 import com.gnepux.instrument.activity.databindling.DataBindingActivity;
+import com.gnepux.instrument.activity.loader.LoaderActivity;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 
@@ -19,6 +20,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             put(R.id.main_retrofit, "Retrofit2");
             put(R.id.main_dagger, "Dagger2");
             put(R.id.main_databinding, "DataBinding");
+            put(R.id.main_loader, "Loader");
         }
     };
 
@@ -86,6 +88,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 break;
             case R.id.main_databinding: // DataBinding
                 readyGo(DataBindingActivity.class);
+                break;
+            case R.id.main_loader:  // Loader
+                readyGo(LoaderActivity.class);
                 break;
         }
     }
