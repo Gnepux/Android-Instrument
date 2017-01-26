@@ -50,3 +50,6 @@ android {
     }
 }
 ```
+
+##2017.1.26
+###1. 加入Loader(AsyncTaskLoader)相关的例子
